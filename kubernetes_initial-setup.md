@@ -51,19 +51,19 @@ sudo mv /tmp/eksctl /usr/local/bin
 ### Configure AWS Credentials using aws configure command :
 
 ```
-i)   aws configure
+aws configure
 ```
 ```
-ii)  AWS Access Key ID [None]: XXXXXXXXXXXXXXXXXXXXXX
+AWS Access Key ID [None]: XXXXXXXXXXXXXXXXXXXXXX
 ```
 ```
-iii) AWS Secret Access Key [None]: XXXXXXXXXXXXXXXXXXXXXX
+AWS Secret Access Key [None]: XXXXXXXXXXXXXXXXXXXXXX
 ```
 ```
-iv)  Default region name [None]: region-code
+Default region name [None]: region-code
 ```
 ```
-v)   Default output format [None]:
+Default output format [None]:
 ```
 
 ### Update the cluster information in kubeconfig file on EC2:
